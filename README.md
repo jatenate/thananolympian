@@ -1,7 +1,7 @@
 #Than An Olympian
-### by [@jmh](www.twitter.com/jmh) and [@danchen_](@danchen_)
+### by [@jmh](http://www.twitter.com/jmh) and [@danchen_](http://www.twitter.com/danchen_)
 
-Dump of the source behind [www.thananolympian.com](www.thananolympian.com).
+Dump of the source behind [www.thananolympian.com](http://www.thananolympian.com).
 
 The charts are rendered using a modified version of [Peity](http://benpickles.github.com/peity/).
 
