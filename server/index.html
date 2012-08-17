@@ -1,0 +1,80 @@
+<html>
+<head>
+	<title>Than An Olympian</title>
+
+	<link type="text/css" href="css/reset.css" rel="stylesheet" />
+	<link type="text/css" href="css/dropkick.css" rel="stylesheet" />
+	<link type="text/css" href="css/ui-lightness/jquery-ui-1.8.22.custom.css" rel="stylesheet" />
+	<link type="text/css" href="css/olympian.css" rel="stylesheet" />	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<script src="js/imperial_histogram.min.js"></script>
+	<script src="js/jquery.peity.jmh.min.js"></script>
+	<script src="js/jquery-ui-1.8.22.custom.min.js"></script>
+	<script src="js/jquery.dropkick-1.0.0.jmh.min.js"></script>
+	<script src="js/olympian.min.js"></script>
+</head>
+
+<body>
+	<div id="container">
+		<div id="top_border"></div>
+		<section id="controls">
+			<section id="gender">
+				I'm a
+				<img id="gender_male" src="img/male_selected.png" onclick="swap_gender('male')" />
+				<img id="gender_female" src="img/female_unselected.png" onclick="swap_gender('female')" />
+			</section>
+			<section id="filter">
+				and my
+				<div class="select_wrapper">
+					<select name="verb_filter" tabindex="2" class="dropdown">
+						<option value="age">age</option>
+						<option value="height">height</option>
+						<option value="weight">weight</option>
+					</select>
+				</div>
+				is:
+			</section>
+
+			<section id="slider_section" class="male">
+				<label class="slider_range"></label>
+				<div id="slider"></div>
+				<label class="slider_range"></label>
+			</section>
+		</section>
+
+		<section id="results">
+			<header>
+				<p>I'm <span id="verb">older</span> than:</p>
+			</header>
+			<section id="rings">
+				<section id="top_rings">
+					<span id="blue_ring" class="pie" color="0,132,195">0/1</span>
+					<span id="black_ring" class="pie" color="0,0,0">0/1</span>
+					<span id="red_ring" class="pie" color="226,0,39">0/1</span>
+					<div class="no_data" style="display:none;">No<br/>data :(</div> <!-- yeah, it's a hack -->
+				</section>
+				<section id="bottom_rings">
+					<span id="yellow_ring" class="pie" color="245,196,58">0/1</span>
+					<span id="green_ring" class="pie" color="0,159,73">0/1</span>
+				</section>
+			</section>
+
+			<section id="legend">
+				<section id="top_legend">
+					<span id="blue_legend" class="legend_item"><span class="legend_icon">&bull;</span>Swimming</span>
+					<span id="black_legend" class="legend_item"><span class="legend_icon">&bull;</span>Total</span>
+					<span id="red_legend" class="legend_item"><span class="legend_icon">&bull;</span>Gymnastics</span>
+				</section>
+				<section id="bottom_legend">
+					<span id="yellow_legend" class="legend_item"><span class="legend_icon">&bull;</span>Track and Field</span>
+					<span id="green_legend" class="legend_item"><span class="legend_icon">&bull;</span>Other</span>
+				</section>
+			</section>
+		</section>
+
+		<footer>
+			<p>by <a href="http://twitter.com/jmh">@jmh</a> and <a href="http://twitter.com/danchen_">@danchen_</a></p>
+		</footer>
+	</div>
+</body>
+</html>

@@ -1,0 +1,211 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: -1px;
+  background: url(../img/torch.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#container {
+  text-align: center;
+  margin: 40px auto;
+  width: 800px;
+  background: url(../img/70_white.png);
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+#top_border {
+  background: url(../img/top_border.png);
+  height: 6px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-topleft: 10px;
+  margin-bottom: 10px;
+}
+footer {
+  background: url(../img/80_white.png);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  padding: 8px 0;
+}
+.large_text {
+  padding: 16px 0;
+  font-size: 60px;
+  font-weight: 300;
+  color: #111111;
+}
+#controls {
+  padding: 16px 0;
+  font-size: 60px;
+  font-weight: 300;
+  color: #111111;
+}
+#controls section {
+  padding: 20px 0;
+}
+#controls section #years_text {
+  font-size: 24px;
+  font-weight: 400;
+}
+section.seperator {
+  width: 100%;
+  height: 8px;
+  background: url(../img/80_white.png);
+}
+#results {
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+#results header {
+  padding: 16px 0;
+  font-size: 60px;
+  font-weight: 300;
+  color: #111111;
+}
+#bubble {
+  background-color: #111111;
+  color: #DDD;
+  font-weight: 300;
+  display: inline-block;
+  margin-top: 28px;
+  padding: 6px;
+  letter-spacing: 0px;
+}
+#bubble:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 0;
+  bottom: -8px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #111111;
+}
+#slider_section {
+  margin: 0 auto;
+  font-size: 15px;
+}
+#slider_section label {
+  display: inline-block;
+  margin: 0 6px;
+  font-weight: 500;
+}
+#slider {
+  width: 400px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.ui-slider-horizontal {
+  height: 4px;
+  border: 1px solid #808080;
+  background: #B3B3B3;
+}
+.ui-slider-horizontal .ui-slider-handle {
+  height: 20px;
+  width: 20px;
+  top: -10px;
+  margin-left: -6px;
+  border: 2px solid #808080;
+  background: #B3B3B3;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.ui-slider-horizontal .ui-slider-handle:after {
+  margin: 0 auto;
+}
+.male .ui-slider-horizontal .ui-slider-handle {
+  border: 2px solid #0084C3;
+  background: #29ABE2;
+}
+.female .ui-slider-horizontal .ui-slider-handle {
+  border: 2px solid #BC416D;
+  background: #FF7BAC;
+}
+.slider_range {
+  display: inline;
+}
+#gender img {
+  cursor: pointer;
+}
+#gender #male {
+  background: url(../img/male_unselected.png);
+}
+#gender #male .selected {
+  background: url(../img/male_selected.png);
+}
+#gender #female {
+  background: url(../img/female_unselected.png);
+}
+#gender #female .selected {
+  background: url(../img/female_selected.png);
+}
+#rings .pie {
+  margin: 0 5px;
+}
+#bottom_rings {
+  margin-top: -105px;
+}
+.legend_icon {
+  width: 16px;
+  height: 16px;
+  background-color: black;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+  display: inline-block;
+  margin-right: 2px;
+}
+#blue_legend .legend_icon {
+  background-color: #0084C3;
+  color: #0084C3;
+}
+#black_legend .legend_icon {
+  background-color: black;
+  color: black;
+}
+#red_legend .legend_icon {
+  background-color: #E20027;
+  color: #E20027;
+}
+#yellow_legend .legend_icon {
+  background-color: #F5C43A;
+  color: #F5C43A;
+}
+#green_legend .legend_icon {
+  background-color: #009F49;
+  color: #009F49;
+}
+#legend .legend_item {
+  display: inline-block;
+  width: 255px;
+}
+footer a {
+  text-decoration: none;
+  color: grey;
+}
+footer a:hover {
+  background-color: #111111;
+}
+.select_wrapper {
+  display: inline-block;
+  text-align: left;
+  margin-bottom: -18px;
+}
+.no_data {
+  font-size: 40px;
+  font-weight: bold;
+  color: #E20027;
+  display: inline-block;
+  margin-top: -160px;
+  float: right;
+  margin-right: 110px;
+}
