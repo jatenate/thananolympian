@@ -1,5 +1,5 @@
 #Than An Olympian
-### by [@jmh](http://www.twitter.com/jmh) and [@dnchn](http://www.twitter.com/dnchn)
+### by [@jmh](http://www.twitter.com/jmh) and [@dnlchn](http://www.twitter.com/dnlchn)
 
 Dump of the source behind [www.thananolympian.com](http://www.thananolympian.com).
 
